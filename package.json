@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "fix": "eslint --fix ."
   },
-  "pre-commit":[
+  "pre-commit": [
     "fix",
     "lint"
   ],
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@types/node": "^14.14.20",
     "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
     "pre-commit": "^1.2.2"
   }
 }
