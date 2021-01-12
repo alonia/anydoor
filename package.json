@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit":[
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonia/anydoor.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "wtx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonia/anydoor/issues"
+  },
+  "homepage": "https://github.com/alonia/anydoor#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "babel-eslint": "^10.1.0",
+    "pre-commit": "^1.2.2"
+  }
+}
